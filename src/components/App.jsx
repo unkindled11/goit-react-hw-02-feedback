@@ -1,3 +1,6 @@
+import Section from "./Section";
+import Feedback from "./Feedback";
+
 export const App = () => {
   return (
     <div
@@ -10,7 +13,12 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      React homework templat
+      <Section title="Please leave feedback">
+
+        <Feedback />
+        
+      </Section>
+
     </div>
   );
 };
